@@ -8,6 +8,7 @@ const converter = new showdown.Converter({
   code: true,
   emoji: true,
   quotes: true,
+  simpleLineBreaks: true,
 })
 
 const cache: any = {}

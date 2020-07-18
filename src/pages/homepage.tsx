@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Blog } from "../components/blog"
-import { blogContents } from "../blogcontent"
+import { blogContents } from "../blogcontents"
 
 export const HomePage = () => {
   return (

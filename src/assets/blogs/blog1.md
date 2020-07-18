@@ -4,7 +4,8 @@ This is the first blog.
 
 You can write either Markdown or regular HTML.
 
-Here is the *markdown* for this page:
+Here is the _markdown_ for this page:
+
 ```md
 # Blog 1
 

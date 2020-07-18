@@ -1,18 +1,19 @@
 # Blog 2
 
 HTML Code:
+
 ```html
 <div class="panel">
   This is the 2nd blog.
-  <hr>
-  <img src="../images/balloon.jpg">
+  <hr />
+  <img src="../images/cat1.jpg" />
 </div>
 ```
 
 <div class="panel">
   This is the 2nd blog.
   <hr>
-  <img src="../images/balloon.jpg">
+  <img src="../images/cat1.jpg">
 </div>
 
 <div style="text-align:center">
