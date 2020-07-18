@@ -1,0 +1,42 @@
+{
+  "name": "blogbase",
+  "version": "0.0.1",
+  "description": "Blog generator.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html -p 9000 --out-dir dev-build",
+    "build": "npx parcel build src/index.html --no-source-maps --public-url ."
+  },
+  "keywords": [
+    "blog",
+    "website"
+  ],
+  "author": "omt",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/showdown": "^1.9.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "showdown": "^1.9.1",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "src/assets",
+        "staticOutDir": "assets"
+      }
+    ],
+    "watcherGlob": "**"
+  }
+}
