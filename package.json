@@ -34,6 +34,9 @@
       {
         "staticPath": "src/assets",
         "staticOutDir": "assets"
+      },
+      {
+        "staticPath": "redirects"
       }
     ],
     "watcherGlob": "**"
